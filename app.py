@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-#
 from ai_response import ai_response
 import os
 import json
